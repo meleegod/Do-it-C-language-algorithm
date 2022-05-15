@@ -4,13 +4,17 @@ int main()
 {
     int i, n;
     int sum;
-    puts("1ë¶€í„° nê¹Œì§€ì˜ í•©ì„ êµ¬í•©ë‹ˆë‹¤.");
-    printf("n ê°’ :");
-    scanf("%d", &n);
+    puts("1ºÎÅÍ n±îÁöÀÇ ÇÕÀ» ±¸ÇÕ´Ï´Ù.");
+    do
+    {
+        printf("n °ª :");
+        scanf("%d", &n);
+    } while (n <= 0);
+    
     sum = 0;
     for(i = 1; i <=n; i++)
     {
         sum += i;
     }
-    printf("1ë¶€í„° %dê¹Œì§€ì˜ í•©ì€ %dì…ë‹ˆë‹¤.",n,sum);
+    printf("1ºÎÅÍ %d±îÁöÀÇ ÇÕÀº %dÀÔ´Ï´Ù .",n,sum);
 }
