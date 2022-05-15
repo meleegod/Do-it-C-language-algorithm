@@ -5,12 +5,12 @@
 //     int a,b,c;
 //     int max;
 
-//     printf("세 값을 입력하세요\n");
-//     printf("a의 값 :");
+//     printf("?? ???? ????????\n");
+//     printf("a?? ?? :");
 //     scanf("%d",&a);
-//     printf("b의 값 :");
+//     printf("b?? ?? :");
 //     scanf("%d",&b);
-//     printf("c의 값 :");
+//     printf("c?? ?? :");
 //     scanf("%d",&c);
 
 //     max = a;
@@ -22,5 +22,5 @@
 //     {
 //         max = c;
 //     }
-//     printf("최댓값은 %d입니다",max);
+//     printf("????? %d????",max);
 // }
