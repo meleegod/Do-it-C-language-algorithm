@@ -1,1 +1,1 @@
-# Do-it-C-language-algorithm
+# Do it! 자료구조와 함게 배우는 알고리즘 입문 c언어편
